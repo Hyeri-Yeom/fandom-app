@@ -68,8 +68,8 @@ const MyArchive = () => {
           />
           <Link to="ArchiveA" className={`toggle-btn ${getIndex() === 0 ? 'active' : ''}`}>좋아요</Link>
           <Link to="ArchiveB" className={`toggle-btn ${getIndex() === 1 ? 'active' : ''}`}>북마크</Link>
-          <Link to="ArchiveC" className={`toggle-btn ${getIndex() === 2 ? 'active' : ''}`}>댓글</Link>
-          <Link to="ArchiveD" className={`toggle-btn ${getIndex() === 3 ? 'active' : ''}`}>나의 글</Link>
+          <Link to="ArchiveC" className={`toggle-btn ${getIndex() === 2 ? 'active' : ''}`}>나의 글</Link>
+          <Link to="ArchiveD" className={`toggle-btn ${getIndex() === 3 ? 'active' : ''}`}>댓글</Link>
         </div>
       </div>
       <div className="container archive">
