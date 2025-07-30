@@ -52,7 +52,6 @@ const FanHome: React.FC = () => {
           <FanHeader />
         </div>
         <div className="togglesearch">
-<<<<<<< HEAD:project01/src/pages/artist/fan/FanHome.tsx
           <div className="fansearcha">
             <img src={fansearch} alt="" />
           </div>
@@ -73,45 +72,38 @@ const FanHome: React.FC = () => {
           </div>
           <div className="fansearch">
             <img src={fansearch} alt="" />
-=======
-          <div className="fansearcha"><img src={fansearch} alt="" /></div>
-          <div className="toggle-container">
-          <div className="toggle-bg" style={{   left: getIndex() === 1 ? `calc(50%)` : undefined,
-  right: getIndex() === 0 ? `calc(0%-1px)` : undefined,}} />
-            <Link to="FanPostDetail" className="toggle-btn A">팬레터</Link>
-            <Link to="FanPostWrite" className="toggle-btn B">비밀레터</Link>
->>>>>>> 776234c4bc4d66d6cb619947b86c2ff1cbe86d1d:project01/src/pages/artist/fan/FanHome.jsx
-          </div>
         </div>
       </div>
-
+      </div> 
       <Outlet />
 
-      <p className="btnmore" onClick={() => setIsMenuOpen(true)}>
-        <img src={btnmore} alt="more button" />
-      </p>
+<p className="btnmore" onClick={() => setIsMenuOpen(true)}>
+  <img src={btnmore} alt="more button" />
+</p>
 
-      {isMenuOpen && (
-        <div className="floating-overlay" onClick={() => setIsMenuOpen(false)}>
-          <div
-            className="floating-content"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <Link to="/FanLetter" onClick={() => setIsMenuOpen(false)}>
-              팬 레터 <img src={fan} alt="" />
-            </Link>
+{isMenuOpen && (
+  <div className="floating-overlay" onClick={() => setIsMenuOpen(false)}>
+    <div
+      className="floating-content"
+      onClick={(e) => e.stopPropagation()}
+    >
+      <Link to="/FanLetter" onClick={() => setIsMenuOpen(false)}>
+        팬 레터 <img src={fan} alt="" />
+      </Link>
 
-            <Link to="/SecretLetter" onClick={() => setIsMenuOpen(false)}>
-              비밀 레터 <img src={secret} alt="" />
-            </Link>
-            <button onClick={() => setIsMenuOpen(false)}>
-              <img src={X} alt="닫기" />
-            </button>
-          </div>
-        </div>
-      )}
+      <Link to="/SecretLetter" onClick={() => setIsMenuOpen(false)}>
+        비밀 레터 <img src={secret} alt="" />
+      </Link>
+      <button onClick={() => setIsMenuOpen(false)}>
+        <img src={X} alt="닫기" />
+      </button>
     </div>
-  );
-};
+  </div>
+)}
+</div>
+);
+};  // <-- fanContainer 닫힘
+
+
 
 export default FanHome;
