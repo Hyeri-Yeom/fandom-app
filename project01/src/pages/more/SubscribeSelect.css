@@ -1,5 +1,5 @@
 /* .bgSub{background:linear-gradient(to bottom,#5dabff, #fff,#5dabff);height: auto;} */
-.SubscribeHeader2{position: fixed;height: 70px;width: 100%;z-index: 90;background: #5dabff;}
+.SubscribeHeader2{position: fixed;height: 70px;width: 100%;z-index: 90;background: #5dabff;max-width: 430px;}
 
 .container.SubscribeSelect{margin-top: 69px;background:linear-gradient(to top ,#5dabff,#fff,#5dabff);height: auto;min-height: 100vh;}
 

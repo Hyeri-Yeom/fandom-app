@@ -46,10 +46,12 @@ const handleNextImage = () => {
 
 
   return (
+    <div>
+    <div className="IllitHeader">
+    <IllitHeader />
+    </div>
     <div className='container-Artist'>
-      <div className="IllitHeader">
-        <IllitHeader />
-      </div>
+   
      <div className="Artisttop">
      <div className="img" onClick={handleNextImage} style={{ cursor: "pointer" }}>
       <p className="photo">Our Memories</p>
@@ -110,6 +112,7 @@ const handleNextImage = () => {
   <ScheduleCalendar />
 </div>
       <div className="ArtistHomebg"><img src={content} alt="" /></div>
+    </div>
     </div>
   )
 }

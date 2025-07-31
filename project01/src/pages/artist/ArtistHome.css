@@ -59,6 +59,7 @@ height: 150px;
 background: linear-gradient(to bottom, #EBC2F5,#fff5fe);
 border-radius: 16px 16px 0 0;
 box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+max-width: 430px;
 }
 
   /* 아이콘 그룹 (배경 위에 띄우기) */
@@ -67,7 +68,7 @@ box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 .nav-row.second {top: 60px;}
 
 
-.IllitHeader {height: 70px;position: fixed;top: 0;left: 0;width: 100%;z-index: 999;background:  #D6B6F5;box-shadow: 0 0 10px rgba(184,142,226,0.3);}
+.IllitHeader {height: 70px;position: fixed;top: 0;width: 100%;z-index: 999;background:  #D6B6F5;box-shadow: 0 0 10px rgba(184,142,226,0.3);max-width:430px;padding: 0;}
 .ArtistHomebg {position: fixed;top:95px;left: 0;width: 100%;height:auto;z-index: -1;}
 .ArtistHomebg img {width: 100%;height: 100%;object-fit: cover;}
 

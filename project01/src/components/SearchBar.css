@@ -26,4 +26,4 @@
     background: transparent;
     color: #333;
   }
-.search-bar .red-dot {right:230px;top: 15px;position: absolute;width: 6px;height: 6px;}
+.search-bar .red-dot {left:140px;top: 15px;position: absolute;width: 6px;height: 6px;}

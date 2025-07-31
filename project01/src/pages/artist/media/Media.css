@@ -43,12 +43,12 @@
 
   
 
-.Media-bg {position: fixed;top:180px;left: 0;z-index: -999;width: 100%;height:auto;}
+.Media-bg {position: fixed;top:180px;z-index: -999;width: 100%;height:auto;max-width: 430px;}
 .Media-bg img {width: 100%;height: 100%;object-fit: cover;}
 .outlet {margin-top: 150px;margin-bottom: 170px;}
 
-.MediaHeader {height: 152px;position: fixed;top: 0;left: 0;width: 100%;z-index: 999;}
-.Media-headerbg  {position: fixed;top:0;left: 0;z-index: 999;width: 100%;height: 152px;box-shadow: 0 0 10px rgba(184,142,226,0.3);}
+.MediaHeader {height: 152px;position: fixed;top: 0;width: 100%;z-index: 999;max-width: 430px;}
+.Media-headerbg  {position: fixed;top:0;z-index: 999;width: 100%;height: 152px;box-shadow: 0 0 10px rgba(184,142,226,0.3);max-width: 430px;}
 .Media-headerbg img {width: 100%;height: 100%;object-fit: cover;}
 .toggle-container .red-dot {width: 6px;height: 6px;position: absolute;right: 12px;top: 10px;}
 

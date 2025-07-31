@@ -1,12 +1,12 @@
 .chatbot-button {
-    position: fixed;
+    position:sticky;
     bottom: 24px;
-    right: 24px;
     width: 56px;
     height: 56px;
     border: none;
     cursor: pointer;
     z-index: 1000;
+    float: right;
   }
   
   .chatbot-button img {
