@@ -270,6 +270,7 @@ const FanPostView = () => {
             onChange={(e) => setInputValue(e.target.value)}
           />
           <button onClick={handleAddComment}>
+            <span className="red-dot"></span>
             <img src={send} alt="보내기" className="comment-send-icon" />
           </button>
         </div>

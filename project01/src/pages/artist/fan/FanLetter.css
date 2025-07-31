@@ -124,3 +124,4 @@
   }
   .modal-buttons button.letter-save{background:linear-gradient(to top, #FF8EBF,#FFAACF, #FFC8DF,#fff);}
 
+  .FanLetterContent .red-dot {width: 6px;height: 6px;right: -14px;top:-4px;position: absolute;}

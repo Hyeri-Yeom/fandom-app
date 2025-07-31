@@ -114,3 +114,4 @@ left: 0;
 
 
   .Fanpostview-comment-icon img {width: 18px;height: 18px;object-fit: cover;}
+  .fan-post-view .comment-input .red-dot {width: 6px;height: 6px;position: absolute;right: 0;}

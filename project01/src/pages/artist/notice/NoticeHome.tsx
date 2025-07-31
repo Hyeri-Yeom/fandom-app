@@ -24,6 +24,7 @@ const Notice: React.FC = () => {
                 <p>2025.07.04 <span className="newicon">new</span></p>
               </div>
               <img src={rightIcon} alt="" />
+              <span className="red-dot"></span>
             </Link>
           </li>
           <li>

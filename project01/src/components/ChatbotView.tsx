@@ -165,6 +165,7 @@ const ChatbotView: React.FC = () => {
         </div>
         <button onClick={() => navigate('/MainHome')}>
           <img src={close} alt="close" />
+          <span className="red-dot"></span>
         </button>
       </div>
 
@@ -182,6 +183,7 @@ const ChatbotView: React.FC = () => {
 
             {msg.type === 'buttons' ? (
               <div className={`chatbot-body__buttons ${msg.side === 'user' ? 'user' : 'bot'}`}>
+                <span className="red-dot"></span>
                 {msg.options?.map((opt, i) => (
                   <button key={i} onClick={() => handleSelect(opt)}>
                     {opt}

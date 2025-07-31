@@ -67,7 +67,7 @@ const FanHome: React.FC = () => {
               팬레터
             </Link>
             <Link to="FanPostWrite" className="toggle-btn">
-              비밀레터
+              비밀레터  <span className='red-dot'></span>
             </Link>
           </div>
           <div className="fansearch">
@@ -79,6 +79,7 @@ const FanHome: React.FC = () => {
 
 <p className="btnmore" onClick={() => setIsMenuOpen(true)}>
   <img src={btnmore} alt="more button" />
+  <span className='red-dot'></span>
 </p>
 
 {isMenuOpen && (
@@ -88,7 +89,7 @@ const FanHome: React.FC = () => {
       onClick={(e) => e.stopPropagation()}
     >
       <Link to="/FanLetter" onClick={() => setIsMenuOpen(false)}>
-        팬 레터 <img src={fan} alt="" />
+        팬 레터 <img src={fan} alt="" />  <span className='red-dot'></span>
       </Link>
 
       <Link to="/SecretLetter" onClick={() => setIsMenuOpen(false)}>

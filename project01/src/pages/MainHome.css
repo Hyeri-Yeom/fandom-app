@@ -7,4 +7,5 @@
 .filter img{cursor: pointer;}
 .mainTop{display: flex;margin: 0 auto;width: 100%;justify-content:center ;}
 .maintxt{padding: 0 10px;}
-
+input::placeholder {
+  }

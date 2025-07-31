@@ -282,3 +282,7 @@ border: 1px solid #111;
     color: #111;
     }
 
+
+
+    .chatbot-body__buttons .red-dot {width: 6px;height: 6px;right: 0;top: 90px;position: absolute;}
+    .chatbot-body__header .red-dot {width: 6px;height: 6px;right: 0;top: 18px;position: absolute;}

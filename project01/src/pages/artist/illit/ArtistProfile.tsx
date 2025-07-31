@@ -49,7 +49,7 @@ const ArtistProfile: React.FC = () => {
             }}
           />
           <Link to="ArtistA" className="toggle-btn">포스트</Link>
-          <Link to="ArtistB" className="toggle-btn">댓글</Link>
+          <Link to="ArtistB" className="toggle-btn">댓글<span className="red-dot"></span></Link>
         </div>
         <div className="container Artist"><Outlet /></div>
       </div>

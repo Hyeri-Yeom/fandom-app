@@ -229,11 +229,11 @@ const products: Product[] = [
 
   {
     id: 17,
-    name: "Hair Scrunchie",
-    img: goods17,
+    name: "KEYRING",
+    img: goods5,
     bigCategory: "MERCH",
     smallCategory: "bomb",
-    price: "19,000",
+    price: "20,000",
   },
   {
     id: 18,
@@ -625,29 +625,33 @@ const StoreHome: React.FC = () => {
 
           <div className="Goods">
             <ul className="product-list">
-              {filteredProducts.map((product) => (
-                <li key={product.id}>
-                  <div className="goods">
-                    <Link to='/StoreDetail'>
-                      <div className="img-container">
-                        <img src={product.img} alt={product.name} />
-                        {product.soldOut && <div className="soldout-overlay">SOLD<br />OUT</div>}
-                      </div>
-                    </Link>
-                    <div className="explain">
-                      <p className="name">{product.name}</p>
-                      <div className="tag">
-                        <p className="blue">단독판매</p>
-                        <p className="KR발송">KR 발송</p>
-                      </div>
-                      <div className="price">
-                      <h3>₩{Number(product.price.replace(/,/g, '')).toLocaleString()}</h3>
-                        <LikeButton />
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              ))}
+            {filteredProducts.map((product) => (
+  <li key={product.id}>
+    <div className="goods">
+      <Link to='/StoreDetail'>
+        <div className="img-container" style={{ position: 'relative' }}>
+        {product.id === 17 && (
+            <div className="red-dot"></div>  
+          )} 
+          <img src={product.img} alt={product.name} />
+          {product.soldOut && <div className="soldout-overlay">SOLD<br />OUT</div>}
+       
+        </div>
+      </Link>
+      <div className="explain">
+        <p className="name">{product.name}</p>
+        <div className="tag">
+          <p className="blue">단독판매</p>
+          <p className="KR발송">KR 발송</p>
+        </div>
+        <div className="price">
+          <h3>₩{Number(product.price.replace(/,/g, '')).toLocaleString()}</h3>
+          <LikeButton />
+        </div>
+      </div>
+    </div>
+  </li>
+))}
             </ul>
           </div>
         </div>

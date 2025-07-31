@@ -56,5 +56,5 @@
 .ArtistProfile .top-profile .nickname {font-size: 18px;font-weight: 500;color: #111;margin-bottom: 1px;display: flex;justify-content: center;align-items: center;line-height: 26px;}
 .ArtistProfile .top-profile .nickname img {margin-left: 3px;}
 .ArtistProfile .top-profile .smalltext {font-size: 14px;line-height: 20px;}
-
+.ArtistProfile .red-dot {width: 6px;height: 6px;position: absolute;right: 12px;top: 12px;}
 

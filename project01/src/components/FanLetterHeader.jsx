@@ -9,6 +9,7 @@ const FanLetterHeader = ({ isActive, onBack }) => {
     <div>
       <header className='more'>
         <button className="back-button" onClick={onBack}>
+        <span className="back-red-dot"></span>
           <img src={back} alt="" />
         </button>
         <h2 className="title">

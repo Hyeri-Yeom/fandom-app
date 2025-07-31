@@ -29,7 +29,7 @@ const MediaHome: React.FC = () => {
               }}
             />
             <Link to="MediaA" className="toggle-btn">홈</Link>
-            <Link to="MediaB" className="toggle-btn">전체</Link>
+            <Link to="MediaB" className="toggle-btn">전체<span className="red-dot"></span></Link>
           </div>
         </div>
       </div>

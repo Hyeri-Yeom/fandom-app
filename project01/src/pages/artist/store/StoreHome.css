@@ -18,7 +18,7 @@
 
 /* 카테고리 */
 .container.StoreHome .Products{margin-bottom: 80px;}
-.container.StoreHome .Products .Big ul{width: 100%; display: flex; overflow:scroll; white-space: nowrap; margin-top:15px; scrollbar-width: none;color: #d4ceda;}
+.container.StoreHome .Products .Big ul{width: 100%; display: flex; overflow:scroll; white-space: nowrap; margin-top:15px; scrollbar-width: none;color: #999;}
 .container.StoreHome .Products .Big ul li{margin-right: 10px;transition: all 0.3s;padding-bottom: 5px;}
 .container.StoreHome .Products .Big ul li.underline{border-bottom: 1px solid #000; color:#000;transition: all 0.3s;}
 
@@ -64,3 +64,5 @@
 .container.StoreHome .Goods .goods .explain .tag .KR발송 {color: #9F9F9F;border: 1px solid #9F9F9F; border-radius: 5px;font-size: 10px;padding: 2px;}
 .container.StoreHome .Goods .goods .explain .price {display: flex;justify-content: space-between;margin-top: 4%;}
 .container.StoreHome .Goods .goods .explain .price h3 {font-size: 18px;font-weight: 400;}
+
+.container.StoreHome .Goods .red-dot {position: absolute;right: 0px;top: 8px;width: 6px;height: 6px;}

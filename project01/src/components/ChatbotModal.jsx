@@ -42,7 +42,7 @@ const ChatbotModal = ({ onClose }) => {
             </div>
             <button className="askbtn">
               <Link to='/ChatbotView' state={{ from: '/MainHome/chatbot' }}>
-                문의하기<img src={ask} alt="" />
+                문의하기<img src={ask} alt="" /> <span className="red-dot"></span>
               </Link>
             </button>
             <p className="smallText">몇 분 내 답변 받으실 수 있어요</p>

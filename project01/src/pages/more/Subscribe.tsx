@@ -94,6 +94,7 @@ const Subscribe: React.FC = () => {
                 <p className="smalltext">· 아티스트와의 사진/영상/일정/팟캐스트</p>
               </div>
               <p className="subs">subscription</p>
+              <p className="subs">subscription</p><span className="red-dot"></span>
             </Link>
           </div>
 
@@ -114,14 +115,14 @@ const Subscribe: React.FC = () => {
         <div className="infoBox">
           <ul>
             {infoData.map((item, index) => (
-              <li className="btn" key={index}>
+              <li className="btn" key={index}> 
                 <div className="accordion-header" onClick={() => toggleItem(index)}>
                   <span>{item.title}</span>
                   <img
                     src={down}
                     alt="arrow"
                     className={openIndex === index ? 'rotate' : ''}
-                  />
+                  /><span className="red-dot"></span>
                 </div>
                 {openIndex === index && (
                   <div className="accordion-content">{item.content}</div>

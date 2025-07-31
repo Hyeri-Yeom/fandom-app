@@ -7,7 +7,9 @@ const IllitHeader = () => {
      const navigate = useNavigate();
   return (
     <header className='illitheader'>
-          <button className="back-button" onClick={()=> navigate('/MainHome')}><img src={back} alt="" /></button>
+          <button className="back-button" onClick={()=> navigate('/MainHome')}>
+            <span className="red-dot"></span>
+            <img src={back} alt="" /></button>
            <h2 className="title"><img src={logo} alt="" /></h2>
            <p className="more-button">more</p>
        </header>

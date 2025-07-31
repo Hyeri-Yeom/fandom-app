@@ -180,3 +180,6 @@ object-fit: cover;
   height: 16px;
   margin-right: 6px;
 }
+
+.chatbot-modal .askbtn {position: relative;}
+.chatbot-modal .red-dot {width: 6px;height: 6px;top: 20px;position: absolute;right: 100px;}

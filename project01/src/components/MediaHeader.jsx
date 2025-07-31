@@ -8,7 +8,9 @@ const MediaHeader = () => {
   return (
     <div>
         <header className='media-header'>
-                  <button className="back-button" onClick={()=> navigate('/ArtistHome')}><img src={back} alt="" /></button>
+                  <button className="back-button" onClick={()=> navigate('/ArtistHome')}>
+                    <span className="red-dot"></span>
+                    <img src={back} alt="" /></button>
                   <h2 className="title">MEDIA</h2>
                   <p className="more-button"><a href=""><img src={more} alt="" /></a></p> 
         </header>

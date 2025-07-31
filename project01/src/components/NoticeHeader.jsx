@@ -7,7 +7,8 @@ const NoticeHeader = () => {
   return (
     <div>
      <header className='notice'>
-           <button className="back-button" onClick={()=> navigate('/ArtistHome')}><img src={back} alt="" /></button>
+           <button className="back-button" onClick={()=> navigate('/ArtistHome')}>
+            <span className="red-dot"></span><img src={back} alt="" /></button>
            <h2 className="title">NOTICE</h2>
            <p className="more-button">more</p> 
          </header>

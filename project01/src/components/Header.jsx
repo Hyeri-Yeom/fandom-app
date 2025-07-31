@@ -17,13 +17,13 @@ const Header = () => {
         </p>
         <ul className="nav">
         <li className="alarm">
-          <Link to='/Alarm'><img src={alarm} alt="" /></Link>
+          <Link to='/Alarm'><img src={alarm} alt="" /><span className="red-dot"></span></Link>
         </li>
         <li className="dm">
-          <Link to='/Dm'><img src={dm} alt="" /></Link>
+          <Link to='/Dm'><img src={dm} alt="" /><span className="red-dot"></span></Link>
         </li>
         <li className="more">
-          <Link to='/MoreHome'><img src={more} alt="" /></Link>
+          <Link to='/MoreHome'><img src={more} alt="" /><span className="red-dot"></span></Link>
         </li>
         </ul>
       </header>

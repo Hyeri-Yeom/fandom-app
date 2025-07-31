@@ -47,6 +47,7 @@ const MyArchiveHeader: React.FC<MyArchiveHeaderProps> = ({ onDeleteMode, onEditM
       <p className="more-button">
         <button onClick={toggleOptions} style={{ background: 'none', border: 'none', padding: 0 }}>
           <img src={more} alt="more options" />
+          <span className="red-dot"></span>
         </button>
       </p>
 
@@ -81,7 +82,7 @@ const MyArchiveHeader: React.FC<MyArchiveHeaderProps> = ({ onDeleteMode, onEditM
               onDeleteMode(); // 삭제 모드 진입
             }}
           >
-            삭제하기
+            삭제하기<span className="red-dot"></span>
           </button>
         </div>
       )}

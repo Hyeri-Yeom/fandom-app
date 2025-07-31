@@ -8,7 +8,9 @@ const StoreHeader = () => {
   return (
     <div>
          <header className='more'>
-               <button className="back-button" onClick={()=> navigate('/ArtistHome')}><img src={back} alt="" /></button>
+               <button className="back-button" onClick={()=> navigate('/ArtistHome')}>
+                <span className="red-dot"></span>
+                <img src={back} alt="" /></button>
                <h2 className="title">STORE</h2>
               <p className="more-button"><a href=""><img src={cart} alt="" /></a></p> 
              </header>

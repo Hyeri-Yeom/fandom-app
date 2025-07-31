@@ -64,8 +64,11 @@ const FanLetter: React.FC = () => {
           </div>
 
           <div className="secret-toggle">
-            <span style={{ color: isSecret ? '#d8b4f8' : '#999' }}>비밀 레터</span>
+           
+            <span className="secret-letter-text" style={{ color: isSecret ? '#d8b4f8' : '#999' }}>비밀 레터</span>
+           
             <label className="switch">
+            <span className="red-dot"></span>
               <input
                 type="checkbox"
                 checked={isSecret}

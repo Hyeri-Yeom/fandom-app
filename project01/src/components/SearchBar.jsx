@@ -12,6 +12,7 @@ const SearchBar = ({ placeholder = 'Illit 검색 후 클릭', onChange }) => {
         onChange={onChange}
         className="search-input"
       />
+      <span className="red-dot"></span>
     </div>
   );
 };

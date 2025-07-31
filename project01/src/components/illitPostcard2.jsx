@@ -1,6 +1,6 @@
 import React from 'react';
 import './illitPostcard.css';
-import PostCard2 from './PostCard2';
+import PostCard3 from './PostCard3';
 import post1 from '../assets/img/IllitHomeimg/artistimg/post1.png';
 import post2 from '../assets/img/IllitHomeimg/artistimg/post2.png';
 import post3 from '../assets/img/IllitHomeimg/artistimg/post3.png';
@@ -41,7 +41,7 @@ const illitPostcard2 = () => {
           <div className="container-illitPostcard">
             {dummyPosts.map((post, i) => (
                 <div className="postcard1" key={i}>
-                  <PostCard2 {...post} />
+                  <PostCard3 {...post} />
                 </div>
             ))}
         </div>

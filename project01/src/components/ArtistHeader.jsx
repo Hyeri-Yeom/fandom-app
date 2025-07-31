@@ -6,7 +6,9 @@ const ArtistHeader = () => {
   return (
     <div>
        <header>
-        <button className="back-button" onClick={()=> navigate('/ArtistHome')}><img src={back} alt="" /></button>
+        <button className="back-button" onClick={()=> navigate('/ArtistHome')}>
+          <span className="red-dot"></span>
+          <img src={back} alt="" /></button>
         <h2 className="title">ARTIST</h2>
         <p className="more-button">mroe</p> 
     </header>

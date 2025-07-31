@@ -20,7 +20,7 @@ a {color: inherit; text-decoration: inherit;}
     background-color: red;
     border-radius: 50%;
     margin-left: 10px; /* 필요 시 간격 조절 */
-    vertical-align: middle;position: absolute;top: 25%;left: 30%;}
+    vertical-align: middle;position: absolute;top: 25%;left: 30%;width: 6px;height: 6px;}
 
 .container.sub .infoBox {margin-top: 40px;}
 .container.sub .infoBox ul{width: 100%; margin: 0 auto;}
@@ -35,3 +35,5 @@ a {color: inherit; text-decoration: inherit;}
 .accordion-content .a {margin-bottom: 8px;}
 .accordion-content .a p {margin-left: 8px;}
 .accordion-content .b {margin-bottom: 8px;}
+
+.container.sub .infoBox ul li .red-dot {position:absolute;left:25px;;width: 6px;height: 6px;}
