@@ -1,4 +1,4 @@
-.container.NoticeDetail{ padding: 100px 16px 150px;}
+.container.NoticeDetail{ padding: 100px 16px 150px;background: #fff;}
 .container.NoticeDetail .top{display: block; margin-bottom: 35px;}
 .container.NoticeDetail .top .pink{color: #FF006F;margin-bottom: 6px;}
 .container.NoticeDetail .top h3{font-size: 18px; font-weight: 500;margin-bottom:10px;}

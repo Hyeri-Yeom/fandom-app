@@ -1,16 +1,18 @@
 .fanletterbg{position: fixed;width: 100%;height: 100px;max-width: 430px;}
 .fanletterbg img{width: 100%;width: 100%;height: 100%;object-fit: cover;}
+.FanLetterHeader {position: fixed;top: 0;max-width: 430px;width: 100%;}
 
 .FanLetterContent textarea {
-    width: 370px;
-    height: 600px;
-    margin: 20px auto;
+    width: 100%;
+    height: 100vh;
+    margin: 99px auto;
     display: block;
     padding: 10px;
     font-size: 16px;
     border: none;
     resize: none;
     margin-bottom: 60px;
+    max-width: 430px;
   }
 
   .FanLetterContent textarea:focus {

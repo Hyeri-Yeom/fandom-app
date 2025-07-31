@@ -1,4 +1,4 @@
-.container.NoticeHome{padding: 80px 16px 150px;position: relative;}
+.container.NoticeHome{padding: 80px 16px 150px;position: relative;background: #fff;}
 .container.NoticeHome ul li{border-bottom: 1px solid #eee; height: 100px;}
 .container.NoticeHome ul li .left h3{font-size: 16px; font-weight: 400;padding-bottom:20px;}
 .container.NoticeHome ul li .left p{font-size: 15px; color: #8E8E8E;}
