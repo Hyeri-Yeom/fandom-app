@@ -23,5 +23,5 @@ button {border: none;background: none;cursor: pointer;image-rendering: auto;}
 .subtitle{font-size: 18px;margin: 16px 0;}
 
 
-body {background: #fff;width: 100%;margin: 0 auto;}
-#root {max-width: 430px;width: 100%;margin: 0 auto;overflow: ;}
+body {background: #ddd;width: 100%;margin: 0 auto;}
+#root {max-width: 430px;width: 100%;margin: 0 auto;}
